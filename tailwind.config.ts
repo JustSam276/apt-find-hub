@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for our real estate app
+				realty: {
+					primary: '#2563eb', // Blue
+					secondary: '#1e40af', // Darker blue
+					accent: '#93c5fd', // Light blue
+					background: '#f8fafc', // Almost white
+					card: '#ffffff',
+					text: {
+						primary: '#1e293b', // Dark slate
+						secondary: '#64748b', // Medium slate
+						accent: '#2563eb', // Blue
+					}
 				}
 			},
 			borderRadius: {
