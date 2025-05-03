@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -62,11 +63,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Updated realty color scheme with bright earth tones
+				// Updated realty color scheme with earth tones (no orange)
 				realty: {
 					primary: '#4D8B4A', // Bright green
 					secondary: '#C09A6B', // Wood/board color
-					accent: '#E07A5F', // Bright terracotta
+					accent: '#66B2B2', // Teal green (replaced terracotta)
 					background: '#F8F4E3', // Soft cream
 					card: '#FFFFFF',
 					text: {
