@@ -19,7 +19,7 @@ const ApartmentCard = ({ apartment }: ApartmentCardProps) => {
             alt={title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
-          <div className="absolute top-0 right-0 bg-realty-primary text-white px-3 py-1 m-2 rounded-md font-medium">
+          <div className="absolute top-0 right-0 bg-realty-accent text-white px-3 py-1 m-2 rounded-md font-medium">
             {formatCurrency(price)}/mo
           </div>
         </div>

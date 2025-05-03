@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -63,17 +62,17 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom colors for our real estate app
+				// Updated realty color scheme with blue and orange
 				realty: {
-					primary: '#2563eb', // Blue
-					secondary: '#1e40af', // Darker blue
-					accent: '#93c5fd', // Light blue
-					background: '#f8fafc', // Almost white
+					primary: '#1EAEDB', // Bright Blue
+					secondary: '#0FA0CE', // Darker Blue
+					accent: '#F97316', // Bright Orange
+					background: '#fff', // White
 					card: '#ffffff',
 					text: {
 						primary: '#1e293b', // Dark slate
 						secondary: '#64748b', // Medium slate
-						accent: '#2563eb', // Blue
+						accent: '#1EAEDB', // Bright Blue
 					}
 				}
 			},

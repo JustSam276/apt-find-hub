@@ -77,7 +77,7 @@ const HomePage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow text-center">
-              <div className="w-16 h-16 bg-realty-accent rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-realty-accent/20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-realty-primary">1</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 text-realty-text-primary">Search</h3>
@@ -87,7 +87,7 @@ const HomePage = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow text-center">
-              <div className="w-16 h-16 bg-realty-accent rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-realty-accent/20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-realty-primary">2</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 text-realty-text-primary">Connect</h3>
@@ -97,7 +97,7 @@ const HomePage = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow text-center">
-              <div className="w-16 h-16 bg-realty-accent rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-realty-accent/20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-realty-primary">3</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 text-realty-text-primary">Move In</h3>
@@ -110,7 +110,7 @@ const HomePage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-realty-primary text-white">
+      <section className="py-16 bg-realty-accent text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Ready to find your dream apartment?
@@ -118,7 +118,7 @@ const HomePage = () => {
           <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
             Join thousands of satisfied renters who found their perfect home through Apt-Find Hub.
           </p>
-          <Button asChild size="lg" className="bg-white text-realty-primary hover:bg-gray-100">
+          <Button asChild size="lg" className="bg-realty-primary text-white hover:bg-realty-secondary">
             <Link to="/signup">Get Started Today</Link>
           </Button>
         </div>
